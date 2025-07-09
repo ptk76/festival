@@ -74,25 +74,138 @@
         {
           "name": "Castle",
           "events": [
-            { "time": "14:50", "name": "Red Emprez", "urls": [] },
-            { "time": "16:00", "name": "Wandal", "urls": [] },
-            { "time": "17:10", "name": "Morgenstern", "urls": [] },
-            { "time": "18:30", "name": "Hell Boulevard", "urls": [] },
-            { "time": "20:00", "name": "Aesthetic Perfection", "urls": [] },
-            { "time": "21:30", "name": "The Awakening", "urls": [] },
-            { "time": "23:30", "name": "Carpenter Brut", "urls": [] }
+            {
+              "time": "14:50",
+              "name": "Red Emprez",
+              "urls": [
+                "https://www.facebook.com/redemprez/",
+                "https://www.youtube.com/channel/UCM-DDCBCT4DHLPjcyEPQ_ZA"
+              ]
+            },
+            {
+              "time": "16:00",
+              "name": "Wandal",
+              "urls": [
+                "https://www.facebook.com/WandalDzieciol/",
+                "https://www.youtube.com/@WANDALfolk",
+                "https://open.spotify.com/artist/4npgLyqDgSZjKvz805IuE0"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "Morgenstern",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Morgenstern_(band)",
+                "https://www.youtube.com/channel/UCe_hEQR045WjAi5vnOfwEyw",
+                "https://www.morgenstern-swiss.ch/"
+              ]
+            },
+            {
+              "time": "18:30",
+              "name": "Hell Boulevard",
+              "urls": [
+                "https://www.hellboulevard.com/",
+                "https://www.facebook.com/hellboulevard/",
+                "https://www.youtube.com/channel/UCQALibcepu5I7DS65kVKewg"
+              ]
+            },
+            {
+              "time": "20:00",
+              "name": "Aesthetic Perfection",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Aesthetic_Perfection",
+                "https://www.youtube.com/channel/UCZ5ZvIxBENqIPb8y-49NY1A",
+                "https://aesthetic-perfection.net/",
+                "https://open.spotify.com/artist/1Jgp0YCPHCJx5XD7nlfGVN"
+              ]
+            },
+            {
+              "time": "21:30",
+              "name": "The Awakening",
+              "urls": [
+                "https://open.spotify.com/artist/14II2rDdYF0IcCqSXAicFc?autoplay=true",
+                "https://en.wikipedia.org/wiki/The_Awakening_(band)",
+                "https://theawakening.com/home"
+              ]
+            },
+            {
+              "time": "23:30",
+              "name": "Carpenter Brut",
+              "urls": [
+                "https://www.youtube.com/channel/UCPVnLrkvF3M_H1NTOsMvgrA",
+                "https://carpenterbrut.com/",
+                "https://en.wikipedia.org/wiki/Carpenter_Brut"
+              ]
+            }
           ]
         },
         {
           "name": "Park",
           "events": [
-            { "time": "16:00", "name": "Kryształ", "urls": [] },
-            { "time": "17:10", "name": "Datûra", "urls": [] },
-            { "time": "18:25", "name": "Moonstone", "urls": [] },
-            { "time": "19:40", "name": "Toń", "urls": [] },
-            { "time": "21:00", "name": "Scream Silence", "urls": [] },
-            { "time": "22:30", "name": "Sylvaine", "urls": [] },
-            { "time": "00:00", "name": "Shireen", "urls": [] }
+            {
+              "time": "16:00",
+              "name": "Kryształ",
+              "urls": [
+                "https://www.youtube.com/channel/UCUTPCv_4CSQG7apQApd9Xfg",
+                "https://www.facebook.com/tokrysztal/"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "Datûra",
+              "urls": [
+                "https://www.youtube.com/channel/UCjN_Ximm14en5FllT8LJlWA",
+                "https://www.facebook.com/datura.band/",
+                "https://www.instagram.com/datura.band/?hl=en"
+              ]
+            },
+            {
+              "time": "18:25",
+              "name": "Moonstone",
+              "urls": [
+                "https://www.facebook.com/moonstone.doom/",
+                "https://en.wikipedia.org/wiki/The_Moonstones",
+                "https://www.instagram.com/moonstone.doom/",
+                "http://www.moonstone.pl/"
+              ]
+            },
+            {
+              "time": "19:40",
+              "name": "Toń",
+              "urls": [
+                "https://www.facebook.com/wszyscy.toniemy/",
+                "https://www.instagram.com/wszyscy_toniemy/",
+                "https://www.youtube.com/@wszyscy_toniemy"
+              ]
+            },
+            {
+              "time": "21:00",
+              "name": "Scream Silence",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Scream_Silence",
+                "https://www.youtube.com/channel/UCkm1DKRoigckS244wIEYxrQ",
+                "https://www.facebook.com/ScreamSilenceMusic/",
+                "https://open.spotify.com/artist/2JmERTSFL7NdBSGRnEduLf"
+              ]
+            },
+            {
+              "time": "22:30",
+              "name": "Sylvaine",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Sylvaine",
+                "https://www.youtube.com/channel/UCYoMxOgKpnqGrj-impj1wDQ",
+                "https://www.sylvainemusic.com/"
+              ]
+            },
+            {
+              "time": "00:00",
+              "name": "Shireen",
+              "urls": [
+                "https://www.youtube.com/channel/UCVImTmwT7W5IjVfhRYidS4Q",
+                "https://www.shireen-music.com/",
+                "https://open.spotify.com/artist/5seY97ZUURo9gKO34z2G06"
+              ]
+            }
           ]
         }
       ]
@@ -103,25 +216,141 @@
         {
           "name": "Castle",
           "events": [
-            { "time": "14:50", "name": "Lovelorn Dolls", "urls": [] },
-            { "time": "16:00", "name": "The Last Decade", "urls": [] },
-            { "time": "17:10", "name": "The Sweet Kill", "urls": [] },
-            { "time": "18:30", "name": "Thanateros", "urls": [] },
-            { "time": "20:00", "name": "Psyclon Nine", "urls": [] },
-            { "time": "21:30", "name": "Swallow The Sun", "urls": [] },
-            { "time": "23:30", "name": "Myrkur", "urls": [] }
+            {
+              "time": "14:50",
+              "name": "Lovelorn Dolls",
+              "urls": [
+                "https://www.youtube.com/channel/UCTxqmy2pOWEsRg2k6_i5P4w",
+                "https://en.wikipedia.org/wiki/Lovelorn_Dolls",
+                "https://www.facebook.com/lovelorndollsmusic/"
+              ]
+            },
+            {
+              "time": "16:00",
+              "name": "The Last Decade",
+              "urls": [
+                "https://www.facebook.com/p/The-Last-Decade-61555287167106/",
+                "https://open.spotify.com/artist/2Dmo0gm4ncgsAYmoE1yS9p",
+                "https://www.youtube.com/channel/UCtlsA7pfDBZOaa44bOjdBCQ"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "The Sweet Kill",
+              "urls": [
+                "https://www.youtube.com/channel/UC7nss_yHyetanuXOZqZ54Yw",
+                "https://www.thesweetkill.com/",
+                "https://www.facebook.com/TheSweetKill/",
+                "https://open.spotify.com/artist/445d0aCtpY1jmpLO87SfNu"
+              ]
+            },
+            {
+              "time": "18:30",
+              "name": "Thanateros",
+              "urls": [
+                "https://pl.wikipedia.org/wiki/Thanateros",
+                "https://www.youtube.com/channel/UCyq62PBBIgvewKz9ZJxkG8w",
+                "https://www.facebook.com/thanateros.music/",
+                "https://www.instagram.com/thanateros.official/?hl=en"
+              ]
+            },
+            {
+              "time": "20:00",
+              "name": "Psyclon Nine",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Psyclon_Nine",
+                "https://www.youtube.com/channel/UCc8jU5W93y3clpohno9e-Gw",
+                "https://www.facebook.com/psyclonnineofficial/"
+              ]
+            },
+            {
+              "time": "21:30",
+              "name": "Swallow The Sun",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Swallow_the_Sun",
+                "https://www.youtube.com/channel/UCmTyuJa2qe6_iIy5Tk6Y2RA",
+                "https://www.facebook.com/swallowthesun/",
+                "http://swallowthesun.net/",
+                "https://open.spotify.com/artist/0ulKlNlo0iPx5ZS6VMTHWQ"
+              ]
+            },
+            {
+              "time": "23:30",
+              "name": "Myrkur",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Myrkur",
+                "https://www.youtube.com/@myrkur",
+                "https://www.facebook.com/myrkurmyrkur/",
+                "https://www.instagram.com/myrkurmyrkur/"
+              ]
+            }
           ]
         },
         {
           "name": "Park",
           "events": [
-            { "time": "16:00", "name": "Valkyria", "urls": [] },
-            { "time": "17:10", "name": "Rites of Fall", "urls": [] },
-            { "time": "18:25", "name": "Aux animaux", "urls": [] },
-            { "time": "19:40", "name": "Martyrmachine", "urls": [] },
-            { "time": "21:00", "name": "Date at Midnight", "urls": [] },
-            { "time": "22:30", "name": "Soror Dolorosa", "urls": [] },
-            { "time": "00:00", "name": "Nobody's Wolf Child", "urls": [] }
+            {
+              "time": "16:00",
+              "name": "Valkyria",
+              "urls": [
+                "https://www.facebook.com/Dunklemusic/",
+                "https://www.youtube.com/watch?v=SCVZn4NzivU",
+                "https://en.wikipedia.org/wiki/Valkyrja"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "Rites of Fall",
+              "urls": [
+                "https://www.facebook.com/ritesoffall/",
+                "https://open.spotify.com/artist/0lmo0WuKgZFuma8hHrI4So"
+              ]
+            },
+            {
+              "time": "18:25",
+              "name": "Aux animaux",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Aux_animaux",
+                "https://www.facebook.com/auxanimaux/",
+                "https://www.youtube.com/channel/UCdwgCYddylQzArwHhejAeAQ",
+                "https://open.spotify.com/artist/5jdlUKIbzsVj5TPXqq27SD"
+              ]
+            },
+            {
+              "time": "19:40",
+              "name": "Martyrmachine",
+              "urls": [
+                "https://www.facebook.com/p/Martyrmachine-100028153433442/"
+              ]
+            },
+            {
+              "time": "21:00",
+              "name": "Date at Midnight",
+              "urls": [
+                "https://www.youtube.com/channel/UCIfeJeYkFPBPLm5WrPvAZqQ",
+                "https://www.facebook.com/dateatmidnightband/",
+                "https://open.spotify.com/artist/7sp23jnupYsRQduGkY4uv2"
+              ]
+            },
+            {
+              "time": "22:30",
+              "name": "Soror Dolorosa",
+              "urls": [
+                "https://www.youtube.com/channel/UC2_Z4a4d55ucwjTck6BU0uA",
+                "https://www.facebook.com/sorordolorosaofficial/",
+                "https://open.spotify.com/artist/1aSrvLNjgogQTapWvF2NfP"
+              ]
+            },
+            {
+              "time": "00:00",
+              "name": "Nobody's Wolf Child",
+              "urls": [
+                "https://www.nobodyswolfchild.com/",
+                "https://open.spotify.com/artist/43aGURK9shzB0Cpltcw3G1",
+                "https://www.facebook.com/Nobodyswolfchild/",
+                "https://www.youtube.com/@nobodyswolfchild"
+              ]
+            }
           ]
         }
       ]
@@ -132,26 +361,113 @@
         {
           "name": "Castle",
           "events": [
-            { "time": "14:50", "name": "Skinny", "urls": [] },
-            { "time": "16:00", "name": "Dead Lights", "urls": [] },
-            { "time": "17:10", "name": "Je T'aime", "urls": [] },
-            { "time": "18:30", "name": "Ultra Sunn", "urls": [] },
-            { "time": "19:50", "name": "Gothminister", "urls": [] },
-            { "time": "21:20", "name": "Antimatter", "urls": [] },
+            {
+              "time": "14:50",
+              "name": "Skinny",
+              "urls": [
+                "https://en.wikipedia.org/wiki/Skinny_(band)",
+                "https://www.facebook.com/skinnyband/",
+                "https://www.youtube.com/channel/UCy1xSkKBqfEXVNJLG0TmjZA"
+              ]
+            },
+            {
+              "time": "16:00",
+              "name": "Dead Lights",
+              "urls": [
+                "https://www.youtube.com/channel/UCNURayC11wypQ-TzmqWF_CA",
+                "https://www.deadlights.band/",
+                "https://en.wikipedia.org/wiki/Deadlights_(American_band)",
+                "https://open.spotify.com/artist/5POkjbRYBWVsN4lDMFGFfM"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "Je T'aime",
+              "urls": [
+                "https://www.youtube.com/channel/UCekfH2mEpYBA0VSRUG9NG7g",
+                "https://jetaime-music.com/?srsltid=AfmBOoq3egKPERCg4oddGqvCwX8YN3ti5njkNbk26W0-ORrzNYUE2R9q",
+                "https://www.facebook.com/jetaimethemusic/",
+                "https://www.instagram.com/jetaime_music/?hl=en"
+              ]
+            },
+            {
+              "time": "18:30",
+              "name": "Ultra Sunn",
+              "urls": [
+                "https://www.ultrasunn.com/",
+                "https://www.youtube.com/channel/UCZ5ALJj65SnEWqx99baVNfA",
+                "https://www.instagram.com/ultrasunn/?hl=en",
+                "https://www.facebook.com/ULTRASUNN/",
+                "https://open.spotify.com/artist/6urohrV2xk0fQGPknaw7dx"
+              ]
+            },
+            {
+              "time": "19:50",
+              "name": "Gothminister",
+              "urls": [
+                "https://www.youtube.com/channel/UCfMzMcMNV5vBM7_lwVcqQFQ",
+                "https://en.wikipedia.org/wiki/Gothminister",
+                "https://www.gothminister.com/",
+                "https://www.instagram.com/officialgothminister/?hl=en"
+              ]
+            },
+            {
+              "time": "21:20",
+              "name": "Antimatter",
+              "urls": [
+                "https://www.antimatteronline.com/",
+                "https://en.wikipedia.org/wiki/Antimatter_(band)",
+                "https://www.youtube.com/channel/UCCWL2KXSSAW6XIfz4vzPAXA",
+                "https://www.instagram.com/mickmoss1975/?hl=en"
+              ]
+            },
             {
               "time": "23:05",
               "name": "Anja Huwe / Xmal Deutschland",
-              "urls": []
+              "urls": [
+                "https://anjahuwe.com/",
+                "https://www.instagram.com/huweanja/?hl=en"
+              ]
             }
           ]
         },
         {
           "name": "Park",
           "events": [
-            { "time": "17:40", "name": "Agnis", "urls": [] },
-            { "time": "19:30", "name": "Bornless Fire", "urls": [] },
-            { "time": "20:50", "name": "Frontal Boundary", "urls": [] },
-            { "time": "22:30", "name": "H.EXE", "urls": [] },
+            {
+              "time": "17:40",
+              "name": "Agnis",
+              "urls": [
+                "https://www.facebook.com/agnis.official/",
+                "https://www.youtube.com/@agnis.official"
+              ]
+            },
+            {
+              "time": "19:30",
+              "name": "Bornless Fire",
+              "urls": [
+                "https://www.youtube.com/channel/UCpIaDTPGvriluIKdMxYJtNQ",
+                "https://www.facebook.com/bornlessfire/",
+                "https://open.spotify.com/artist/4LdsI8W2kH1u3QuJ1Y3SjA"
+              ]
+            },
+            {
+              "time": "20:50",
+              "name": "Frontal Boundary",
+              "urls": [
+                "https://frontalboundary.com/",
+                "https://www.youtube.com/channel/UC-1AWkcf0C-WlWtiAZfLEFA",
+                "https://open.spotify.com/artist/4266djCisy3T8hZr9GyFrs"
+              ]
+            },
+            {
+              "time": "22:30",
+              "name": "H.EXE",
+              "urls": [
+                "https://www.youtube.com/channel/UC_KKlSaTAOETUWe4LtusQKw",
+                "https://www.facebook.com/HEXEpl/"
+              ]
+            },
             {
               "time": "00:00",
               "name": "Ambassador21",

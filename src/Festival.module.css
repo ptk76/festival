@@ -1,6 +1,47 @@
 .root {
   margin: 0 auto;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
+}
+
+.festival {
+  font-size: large;
+}
+
+.dates {
+  background-color: rgb(43, 43, 43);
+  color: white;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.stages {
+  background-color: black;
+  color: brown;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.events {
+  display: flex;
+  color: gray;
+}
+
+.eventname {
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.url {
+  margin: 0 10px;
+}
+
+.score{
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.scoreicon{
+  height: 32px;
 }
