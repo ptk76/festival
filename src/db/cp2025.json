@@ -1,0 +1,167 @@
+{
+  "festival": "Castle Party 2025",
+  "days": [
+    {
+      "date": "10.07.2025",
+      "stages": [
+        {
+          "name": "Park",
+          "events": [
+            {
+              "time": "14:50",
+              "name": "Mona Polaski",
+              "urls": [
+                "https://www.facebook.com/monapolaskiband/?locale=pl_PL",
+                "https://www.youtube.com/channel/UCnXQID_HGvY7bnsV8KSaK1Q",
+                "https://open.spotify.com/artist/4D4Sys7tAslFcBhATOFdm0"
+              ]
+            },
+            {
+              "time": "16:00",
+              "name": "Stygmatia",
+              "urls": [
+                "https://www.youtube.com/channel/UCoqU92QPEx1MYmXIBBs3SDg",
+                "https://stygmatia.com/",
+                "https://www.facebook.com/stygmatia/"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "Dead Tahiti",
+              "urls": [
+                "https://open.spotify.com/artist/6JBLfCL5HhKkpS7ReVRRj7?autoplay=true",
+                "https://deadtahiti.bandcamp.com/",
+                "https://www.facebook.com/DeadTahiti/"
+              ]
+            },
+            {
+              "time": "18:25",
+              "name": "Opowieść",
+              "urls": ["https://www.facebook.com/opowiescband/"]
+            },
+            {
+              "time": "19:40",
+              "name": "Estetica Noir",
+              "urls": [
+                "https://www.youtube.com/channel/UC9XdyxPJRK7aDDbHtqHH0fQ",
+                "https://www.facebook.com/esteticanoir/"
+              ]
+            },
+            {
+              "time": "21:00",
+              "name": "Darkways",
+              "urls": [
+                "https://www.youtube.com/channel/UCRfU0633-Cw-n9DcIudjeEA",
+                "https://www.facebook.com/darkwaysband/"
+              ]
+            },
+            {
+              "time": "22:30",
+              "name": "Corpus Delicti",
+              "urls": [
+                "https://corpusdelicti0.wixsite.com/band",
+                "https://www.youtube.com/channel/UClobmNHPXYkqTjyenGLmEEA",
+                "https://open.spotify.com/artist/7gS5jg683LHmjEY540cmH5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11.07.2025",
+      "stages": [
+        {
+          "name": "Castle",
+          "events": [
+            { "time": "14:50", "name": "Red Emprez", "urls": [] },
+            { "time": "16:00", "name": "Wandal", "urls": [] },
+            { "time": "17:10", "name": "Morgenstern", "urls": [] },
+            { "time": "18:30", "name": "Hell Boulevard", "urls": [] },
+            { "time": "20:00", "name": "Aesthetic Perfection", "urls": [] },
+            { "time": "21:30", "name": "The Awakening", "urls": [] },
+            { "time": "23:30", "name": "Carpenter Brut", "urls": [] }
+          ]
+        },
+        {
+          "name": "Park",
+          "events": [
+            { "time": "16:00", "name": "Kryształ", "urls": [] },
+            { "time": "17:10", "name": "Datûra", "urls": [] },
+            { "time": "18:25", "name": "Moonstone", "urls": [] },
+            { "time": "19:40", "name": "Toń", "urls": [] },
+            { "time": "21:00", "name": "Scream Silence", "urls": [] },
+            { "time": "22:30", "name": "Sylvaine", "urls": [] },
+            { "time": "00:00", "name": "Shireen", "urls": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "11.07.2025",
+      "stages": [
+        {
+          "name": "Castle",
+          "events": [
+            { "time": "14:50", "name": "Lovelorn Dolls", "urls": [] },
+            { "time": "16:00", "name": "The Last Decade", "urls": [] },
+            { "time": "17:10", "name": "The Sweet Kill", "urls": [] },
+            { "time": "18:30", "name": "Thanateros", "urls": [] },
+            { "time": "20:00", "name": "Psyclon Nine", "urls": [] },
+            { "time": "21:30", "name": "Swallow The Sun", "urls": [] },
+            { "time": "23:30", "name": "Myrkur", "urls": [] }
+          ]
+        },
+        {
+          "name": "Park",
+          "events": [
+            { "time": "16:00", "name": "Valkyria", "urls": [] },
+            { "time": "17:10", "name": "Rites of Fall", "urls": [] },
+            { "time": "18:25", "name": "Aux animaux", "urls": [] },
+            { "time": "19:40", "name": "Martyrmachine", "urls": [] },
+            { "time": "21:00", "name": "Date at Midnight", "urls": [] },
+            { "time": "22:30", "name": "Soror Dolorosa", "urls": [] },
+            { "time": "00:00", "name": "Nobody's Wolf Child", "urls": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "12.07.2025",
+      "stages": [
+        {
+          "name": "Castle",
+          "events": [
+            { "time": "14:50", "name": "Skinny", "urls": [] },
+            { "time": "16:00", "name": "Dead Lights", "urls": [] },
+            { "time": "17:10", "name": "Je T'aime", "urls": [] },
+            { "time": "18:30", "name": "Ultra Sunn", "urls": [] },
+            { "time": "19:50", "name": "Gothminister", "urls": [] },
+            { "time": "21:20", "name": "Antimatter", "urls": [] },
+            {
+              "time": "23:05",
+              "name": "Anja Huwe / Xmal Deutschland",
+              "urls": []
+            }
+          ]
+        },
+        {
+          "name": "Park",
+          "events": [
+            { "time": "17:40", "name": "Agnis", "urls": [] },
+            { "time": "19:30", "name": "Bornless Fire", "urls": [] },
+            { "time": "20:50", "name": "Frontal Boundary", "urls": [] },
+            { "time": "22:30", "name": "H.EXE", "urls": [] },
+            {
+              "time": "00:00",
+              "name": "Ambassador21",
+              "urls": [
+                "https://www.youtube.com/channel/UCY4XVruUKugs4bNlLJ7EzIg"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
