@@ -85,6 +85,26 @@ function Score(props: { name: string }) {
   );
 }
 
+function FixedScore(props: { name: string }) {
+  const [score, setScore] = useState(2);
+  const db = useContext(DataBaseFacadeContext);
+
+  const readScore = async () => {
+    const dbScore = await db.getScore(props.name);
+    setScore(dbScore);
+  };
+  useEffect(() => {
+    readScore();
+    return () => {};
+  }, []);
+
+  return (
+    <div className={style.score}>
+      <ScoreIcon score={score} />
+    </div>
+  );
+}
+
 function ListEvents(props: { events: any[] }) {
   const events = props.events.map((event) => (
     <div key={fakeKey++} className={style.events}>
@@ -161,40 +181,97 @@ function ListDates() {
   return <>{dates}</>;
 }
 
-function isTimeNext(datetimeStr: string) {
+function addMinutes(date: Date, minutes: number) {
+  return new Date(date.getTime() + minutes * 60 * 1000);
+}
+
+function isTimeNow(datetimeStr: string) {
   console.log(datetimeStr);
   const now = new Date();
+  const nowStart = new Date(datetimeStr);
+  const nowEnd = addMinutes(nowStart, 60);
+  console.log(nowStart, nowEnd, now >= nowStart && now < nowEnd);
+
+  return now >= nowStart && now < nowEnd;
+}
+
+function FindNow() {
+  const [div, setDiv] = useState(<>-</>);
+
+  useEffect(() => {
+    const day = festivalData.days.find((day) => isToday(day.date));
+    if (day) {
+      day.stages.forEach((stage) => {
+        const event = stage.events.find((event) =>
+          isTimeNow(day.date + "." + event.time)
+        );
+        console.log(event);
+        if (event)
+          setDiv(
+            <>
+              <div className={style.stages}>
+                {stage.name}
+                <div className={style.events}>
+                  <FixedScore name={event.name} />
+                  {event.time}{" "}
+                  <div className={style.eventname}>{event.name}</div>{" "}
+                </div>
+              </div>
+            </>
+          );
+      });
+    }
+
+    return () => {};
+  }, []);
+
+  return div;
+}
+
+function isTimeNext(datetimeStr: string) {
+  const now = new Date();
   const next = new Date(datetimeStr);
-  console.log(now, next, now < next);
   return now < next;
 }
 
 function FindNext() {
-  const day = festivalData.days.find((day) => isToday(day.date));
-  if (day) {
-    day.stages.forEach((stage) => {
-      const event = stage.events.find((event) =>
-        isTimeNext(day.date + "." + event.time)
-      );
-      console.log(event);
-      if (event)
-        return (
-          <div className={style.events}>
-            <Score name={event.name} />
-            {event.time} <div className={style.eventname}>{event.name}</div>{" "}
-            <ListUrls urls={event.urls} />
-          </div>
+  const [div, setDiv] = useState(<>-</>);
+
+  useEffect(() => {
+    const day = festivalData.days.find((day) => isToday(day.date));
+    if (day) {
+      day.stages.forEach((stage) => {
+        const event = stage.events.find((event) =>
+          isTimeNext(day.date + "." + event.time)
         );
-    });
-  }
-  return <>-</>;
+        console.log(event);
+        if (event)
+          setDiv(
+            <>
+              <div className={style.stages}>
+                {stage.name}
+                <div className={style.events}>
+                  <FixedScore name={event.name} />
+                  {event.time}{" "}
+                  <div className={style.eventname}>{event.name}</div>{" "}
+                </div>
+              </div>
+            </>
+          );
+      });
+    }
+
+    return () => {};
+  }, []);
+
+  return div;
 }
 
 function FestivalEvent() {
   return (
     <div className={style.root}>
       <div className={style.festival}>{festivalData.festival}</div>
-      <div>Now:</div>
+      <div>Now:</div> <FindNow />
       <div>Next:</div> <FindNext />
       <ListDates />
     </div>
