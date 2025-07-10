@@ -105,7 +105,19 @@ function ListStages(props: { stages: any[] }) {
   return <>{stages}</>;
 }
 
-function ListDates() {
+function isToday(dateStr: string) {
+  const date = new Date(dateStr);
+  const now = new Date();
+  return (
+    date.getFullYear === now.getFullYear &&
+    date.getMonth() === now.getMonth() &&
+    date.getDate() === now.getDate()
+  );
+}
+
+function DateView(props: { day: any }) {
+  const [show, setShow] = useState(true);
+
   const getDay = (dateStr: string) => {
     const date = new Date(dateStr);
     const day = date.getDay();
@@ -120,18 +132,70 @@ function ListDates() {
     ];
     return dayNames[day];
   };
-  const dates = festivalData.days.map((day) => (
+
+  useEffect(() => {
+    setShow(isToday(props.day.date));
+    return () => {};
+  }, []);
+
+  return (
     <div key={fakeKey++} className={style.dates}>
-      {getDay(day.date)} <ListStages stages={day.stages} />
+      <div
+        className={style.daytitle}
+        onClick={() => {
+          setShow(!show);
+        }}
+      >
+        {getDay(props.day.date)}
+      </div>
+
+      {show && <ListStages stages={props.day.stages} />}
     </div>
-  ));
+  );
+}
+
+function ListDates() {
+  const dates = festivalData.days.map((day) => {
+    return <DateView day={day} />;
+  });
   return <>{dates}</>;
+}
+
+function isTimeNext(datetimeStr: string) {
+  console.log(datetimeStr);
+  const now = new Date();
+  const next = new Date(datetimeStr);
+  console.log(now, next, now < next);
+  return now < next;
+}
+
+function FindNext() {
+  const day = festivalData.days.find((day) => isToday(day.date));
+  if (day) {
+    day.stages.forEach((stage) => {
+      const event = stage.events.find((event) =>
+        isTimeNext(day.date + "." + event.time)
+      );
+      console.log(event);
+      if (event)
+        return (
+          <div className={style.events}>
+            <Score name={event.name} />
+            {event.time} <div className={style.eventname}>{event.name}</div>{" "}
+            <ListUrls urls={event.urls} />
+          </div>
+        );
+    });
+  }
+  return <>-</>;
 }
 
 function FestivalEvent() {
   return (
     <div className={style.root}>
       <div className={style.festival}>{festivalData.festival}</div>
+      <div>Now:</div>
+      <div>Next:</div> <FindNext />
       <ListDates />
     </div>
   );
