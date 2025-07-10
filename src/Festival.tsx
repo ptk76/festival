@@ -106,9 +106,23 @@ function ListStages(props: { stages: any[] }) {
 }
 
 function ListDates() {
+  const getDay = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const day = date.getDay();
+    const dayNames = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ];
+    return dayNames[day];
+  };
   const dates = festivalData.days.map((day) => (
     <div key={fakeKey++} className={style.dates}>
-      {day.date} <ListStages stages={day.stages} />
+      {getDay(day.date)} <ListStages stages={day.stages} />
     </div>
   ));
   return <>{dates}</>;

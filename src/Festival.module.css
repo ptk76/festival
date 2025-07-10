@@ -7,7 +7,7 @@
 .festival {
   font-size: large;
   font-weight: bold;
-  color: red;
+  color: rgb(78, 78, 78);
 }
 
 .dates {
@@ -30,6 +30,7 @@
 
 .events {
   display: flex;
+  align-items: anchor-center;
   color: gray;
 }
 
@@ -43,7 +44,7 @@
 }
 
 .score{
-  margin: 0 10px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
