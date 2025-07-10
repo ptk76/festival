@@ -5,12 +5,18 @@ import { DataBaseFacadeContext } from "./db/db_facade";
 
 let fakeKey = 0;
 
+import imgWiki from "./assets/wikipedia.webp";
+import imgSpotify from "./assets/spotify.webp";
+import imgYoutube from "./assets/youtube.webp";
+import imgFacebook from "./assets/facebook.webp";
+import imgEarth from "./assets/earth.webp";
+
 function getIconPath(url: string) {
-  if (url.includes("wikipedia")) return "assets/wikipedia.webp";
-  if (url.includes("youtube")) return "assets/youtube.webp";
-  if (url.includes("spotify")) return "assets/spotify.webp";
-  if (url.includes("facebook")) return "assets/facebook.webp";
-  return "assets/earth.webp";
+  if (url.includes("wikipedia")) return imgWiki;
+  if (url.includes("youtube")) return imgYoutube;
+  if (url.includes("spotify")) return imgSpotify;
+  if (url.includes("facebook")) return imgFacebook;
+  return imgEarth;
 }
 
 function GetIconForUrl(props: { url: string }) {
@@ -32,18 +38,24 @@ function ListUrls(props: { urls: string[] }) {
   return <>{urls}</>;
 }
 
+import imgScore0 from "./assets/score_0.png";
+import imgScore1 from "./assets/score_1.png";
+import imgScore2 from "./assets/score_2.png";
+import imgScore3 from "./assets/score_3.png";
+import imgScore4 from "./assets/score_4.png";
+
 function ScoreIcon(props: { score: number }) {
   switch (props.score) {
     case 0:
-      return <img className={style.scoreicon} src="assets/score_0.png" />;
+      return <img className={style.scoreicon} src={imgScore0} />;
     case 1:
-      return <img className={style.scoreicon} src="assets/score_1.png" />;
+      return <img className={style.scoreicon} src={imgScore1} />;
     case 3:
-      return <img className={style.scoreicon} src="assets/score_3.png" />;
+      return <img className={style.scoreicon} src={imgScore3} />;
     case 4:
-      return <img className={style.scoreicon} src="assets/score_4.png" />;
+      return <img className={style.scoreicon} src={imgScore4} />;
   }
-  return <img className={style.scoreicon} src="assets/score_2.png" />;
+  return <img className={style.scoreicon} src={imgScore2} />;
 }
 
 function Score(props: { name: string }) {
