@@ -6,11 +6,11 @@ import { DataBaseFacadeContext } from "./db/db_facade";
 let fakeKey = 0;
 
 function getIconPath(url: string) {
-  if (url.includes("wikipedia")) return "src/assets/wikipedia.png";
-  if (url.includes("youtube")) return "src/assets/youtube.png";
-  if (url.includes("spotify")) return "src/assets/spotify.jfif";
-  if (url.includes("facebook")) return "src/assets/facebook.webp";
-  return "src/assets/earth.webp";
+  if (url.includes("wikipedia")) return "assets/wikipedia.webp";
+  if (url.includes("youtube")) return "assets/youtube.webp";
+  if (url.includes("spotify")) return "assets/spotify.webp";
+  if (url.includes("facebook")) return "assets/facebook.webp";
+  return "assets/earth.webp";
 }
 
 function GetIconForUrl(props: { url: string }) {
@@ -35,15 +35,15 @@ function ListUrls(props: { urls: string[] }) {
 function ScoreIcon(props: { score: number }) {
   switch (props.score) {
     case 0:
-      return <img className={style.scoreicon} src="src/assets/score_0.png" />;
+      return <img className={style.scoreicon} src="assets/score_0.png" />;
     case 1:
-      return <img className={style.scoreicon} src="src/assets/score_1.png" />;
+      return <img className={style.scoreicon} src="assets/score_1.png" />;
     case 3:
-      return <img className={style.scoreicon} src="src/assets/score_3.png" />;
+      return <img className={style.scoreicon} src="assets/score_3.png" />;
     case 4:
-      return <img className={style.scoreicon} src="src/assets/score_4.png" />;
+      return <img className={style.scoreicon} src="assets/score_4.png" />;
   }
-  return <img className={style.scoreicon} src="src/assets/score_2.png" />;
+  return <img className={style.scoreicon} src="assets/score_2.png" />;
 }
 
 function Score(props: { name: string }) {

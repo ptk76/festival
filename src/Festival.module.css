@@ -1,26 +1,31 @@
 .root {
-  margin: 0 auto;
+  margin: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .festival {
   font-size: large;
+  font-weight: bold;
+  color: red;
 }
 
 .dates {
   background-color: rgb(43, 43, 43);
   color: white;
+  font-weight: bold;
   border-radius: 8px;
   margin: 12px;
+  padding: 10px;
 }
 
 .stages {
   background-color: black;
-  color: brown;
+  color: white;
   font-weight: bold;
   border-radius: 8px;
   margin: 12px;
+  padding: 10px;
 }
 
 .events {
