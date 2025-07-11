@@ -195,37 +195,41 @@ function isTimeNow(datetimeStr: string) {
   return now >= nowStart && now < nowEnd;
 }
 
-function FindNow() {
-  const [div, setDiv] = useState(<>-</>);
+function FindNow(props: { stage: any }) {
+  const [div, setDiv] = useState(<></>);
 
   useEffect(() => {
     const day = festivalData.days.find((day) => isToday(day.date));
     if (day) {
-      day.stages.forEach((stage) => {
-        const event = stage.events.find((event) =>
-          isTimeNow(day.date + "." + event.time)
-        );
-        console.log(event);
-        if (event)
-          setDiv(
-            <>
-              <div className={style.stages}>
-                {stage.name}
-                <div className={style.events}>
-                  <FixedScore name={event.name} />
-                  {event.time}{" "}
-                  <div className={style.eventname}>{event.name}</div>{" "}
-                </div>
+      const event = props.stage.events.find((event: any) =>
+        isTimeNow(day.date + "." + event.time)
+      );
+      console.log(event);
+      if (event)
+        setDiv(
+          <>
+            <div className={style.stagesnow}>
+              {props.stage.name}
+              <div className={style.events}>
+                <FixedScore name={event.name} />
+                {event.time} <div className={style.eventname}>{event.name}</div>{" "}
               </div>
-            </>
-          );
-      });
+            </div>
+          </>
+        );
     }
 
     return () => {};
   }, []);
 
   return div;
+}
+
+function ShowNow() {
+  const day = festivalData.days.find((day) => isToday(day.date));
+  if (!day) return <></>;
+
+  return day.stages.map((stage) => <FindNow stage={stage} />);
 }
 
 function isTimeNext(datetimeStr: string) {
@@ -234,31 +238,30 @@ function isTimeNext(datetimeStr: string) {
   return now < next;
 }
 
-function FindNext() {
+function FindNext(props: { stage: any }) {
   const [div, setDiv] = useState(<>-</>);
 
   useEffect(() => {
     const day = festivalData.days.find((day) => isToday(day.date));
     if (day) {
-      day.stages.forEach((stage) => {
-        const event = stage.events.find((event) =>
-          isTimeNext(day.date + "." + event.time)
-        );
+      const event = props.stage.events.find((event: any) =>
+        isTimeNext(day.date + "." + event.time)
+      );
+      console.log(event);
+      if (event) {
         console.log(event);
-        if (event)
-          setDiv(
-            <>
-              <div className={style.stages}>
-                {stage.name}
-                <div className={style.events}>
-                  <FixedScore name={event.name} />
-                  {event.time}{" "}
-                  <div className={style.eventname}>{event.name}</div>{" "}
-                </div>
+        setDiv(
+          <>
+            <div className={style.stagesnow}>
+              {props.stage.name}
+              <div className={style.events}>
+                <FixedScore name={event.name} />
+                {event.time} <div className={style.eventname}>{event.name}</div>{" "}
               </div>
-            </>
-          );
-      });
+            </div>
+          </>
+        );
+      }
     }
 
     return () => {};
@@ -267,12 +270,25 @@ function FindNext() {
   return div;
 }
 
+function ShowNext() {
+  const day = festivalData.days.find((day) => isToday(day.date));
+  if (!day) return <>---</>;
+
+  return day.stages.map((stage) => <FindNext stage={stage} />);
+}
+
 function FestivalEvent() {
   return (
     <div className={style.root}>
       <div className={style.festival}>{festivalData.festival}</div>
-      <div>Now:</div> <FindNow />
-      <div>Next:</div> <FindNext />
+      <div>Now:</div>
+      <div className={style.shownow}>
+        <ShowNow />
+      </div>
+      <div>Next:</div>
+      <div className={style.shownow}>
+        <ShowNext />
+      </div>
       <ListDates />
     </div>
   );

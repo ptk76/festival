@@ -28,6 +28,13 @@
   padding: 10px;
 }
 
+.stagesnow {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
 .events {
   display: flex;
   align-items: anchor-center;
@@ -50,4 +57,13 @@
 
 .scoreicon{
   height: 32px;
+}
+
+.shownow{
+  background-color: black;
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  margin: 5px;
+  padding: 6px;
 }
