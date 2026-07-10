@@ -74,51 +74,60 @@
           "name": "Scena Zamkowa",
           "events": [
             {
-              "time": "14:40",
               "name": "The Last Digital Angel",
-              "urls": []
-            },
-            {
-              "time": "15:50",
-              "name": "She Pleasures Herself",
+              "time": "14:40",
               "urls": [
-                "https://shepleasuresherself.bandcamp.com/",
-                "https://www.youtube.com/watch?v=5qNj3s90oig",
-                "https://www.youtube.com/watch?v=kkmY3F5bTYM"
+                "https://castleparty.com/",
+                "https://www.youtube.com/results?search_query=The+Last+Digital+Angel"
               ]
             },
             {
-              "time": "17:00",
+              "name": "She Pleasures Herself",
+              "time": "15:50",
+              "urls": [
+                "https://shepleasuresherself.bandcamp.com/",
+                "https://www.youtube.com/watch?v=5qNj3s90oig"
+              ]
+            },
+            {
               "name": "Rotersand",
+              "time": "17:00",
               "urls": [
                 "https://rotersand.net/",
-                "https://www.youtube.com/watch?v=tcmU7Ll5uKU",
+                "https://www.youtube.com/watch?v=i3sD5sajU7I"
+              ]
+            },
+            {
+              "name": "Empathy Test",
+              "time": "18:20",
+              "urls": [
+                "https://www.empathytest.com/",
+                "https://www.youtube.com/watch?v=T1GbBddA94Y"
+              ]
+            },
+            {
+              "name": "Hocico",
+              "time": "19:50",
+              "urls": [
+                "https://www.hocico.com/",
+                "https://www.youtube.com/watch?v=a-1lzP_Y5n4"
+              ]
+            },
+            {
+              "name": "Diary of Dreams",
+              "time": "21:20",
+              "urls": [
+                "https://www.diaryofdreams.de/",
                 "https://www.youtube.com/watch?v=cnKffAZAhoA"
               ]
             },
             {
-              "time": "18:20",
-              "name": "Empathy Test",
-              "urls": [
-                "https://www.youtube.com/watch?v=T1GbBddA94Y",
-                "https://www.youtube.com/watch?v=ilPsniwRIHw",
-                "https://www.empathytest.com/"
-              ]
-            },
-            {
-              "time": "19:50",
-              "name": "Hocico",
-              "urls": []
-            },
-            {
-              "time": "21:20",
-              "name": "Diary of Dreams",
-              "urls": []
-            },
-            {
-              "time": "23:15",
               "name": "VNV NATION",
-              "urls": []
+              "time": "23:15",
+              "urls": [
+                "https://vnvnation.com/",
+                "https://www.youtube.com/@vnvnationofficial"
+              ]
             }
           ]
         },
@@ -126,39 +135,60 @@
           "name": "Scena Parkowa",
           "events": [
             {
-              "time": "16:00",
               "name": "Wolfpack Heading Nowhere",
-              "urls": []
+              "time": "16:00",
+              "urls": [
+                "https://www.facebook.com/wolfpack.heading.nowhere",
+                "https://www.youtube.com/watch?v=mZUp_FNgmDY"
+              ]
             },
             {
-              "time": "17:10",
               "name": "Thy Worshiper",
-              "urls": []
+              "time": "17:10",
+              "urls": [
+                "https://thyworshiper.bandcamp.com/",
+                "https://www.youtube.com/watch?v=s4ddbzX3UjQ"
+              ]
             },
             {
-              "time": "18:25",
               "name": "On All Fours",
-              "urls": []
+              "time": "18:25",
+              "urls": [
+                "https://onallfours.net/",
+                "https://www.youtube.com/results?search_query=On+All+Fours+band"
+              ]
             },
             {
-              "time": "19:40",
               "name": "The Devil's Trade",
-              "urls": []
+              "time": "19:40",
+              "urls": [
+                "https://thedevilstrade.bandcamp.com/",
+                "https://www.youtube.com/@mdgytdt"
+              ]
             },
             {
-              "time": "21:00",
               "name": "Wyatt E",
-              "urls": []
+              "time": "21:00",
+              "urls": [
+                "https://wyattdoom.band/",
+                "https://www.youtube.com/c/WyattDoom"
+              ]
             },
             {
-              "time": "22:30",
               "name": "Wolvennest",
-              "urls": []
+              "time": "22:30",
+              "urls": [
+                "https://wolvennestband.com/",
+                "https://www.youtube.com/watch?v=9y_JVmDjIBw"
+              ]
             },
             {
-              "time": "01:00",
               "name": "Sierra Veins - night show",
-              "urls": []
+              "time": "01:00",
+              "urls": [
+                "https://sierraveins.com/",
+                "https://www.youtube.com/@sierraveins"
+              ]
             }
           ]
         }
@@ -171,39 +201,60 @@
           "name": "Scena Zamkowa",
           "events": [
             {
-              "time": "16:00",
+              "time": "14:50",
               "name": "Her Own World",
-              "urls": []
+              "urls": [
+                "https://herownworld.eu/",
+                "https://www.youtube.com/@HEROWNWORLD_official"
+              ]
+            },
+            {
+              "time": "16:00",
+              "name": "The Silverblack",
+              "urls": [
+                "http://www.thesilverblack.com",
+                "https://www.youtube.com/@TheSilverblackOfficial"
+              ]
             },
             {
               "time": "17:10",
-              "name": "The Silverblack",
-              "urls": []
+              "name": "Long Night",
+              "urls": [
+                "https://www.longnight.band/",
+                "https://www.youtube.com/watch?v=31JSBC7HJ8A"
+              ]
             },
             {
               "time": "18:30",
-              "name": "Long Night",
-              "urls": []
+              "name": "Dawn of Ashes",
+              "urls": [
+                "https://www.facebook.com/dawnofashes",
+                "https://www.youtube.com/@dawnofashes"
+              ]
             },
             {
               "time": "20:00",
-              "name": "Dawn of Ashes",
-              "urls": []
+              "name": "The 3rd and the Mortal",
+              "urls": [
+                "http://mortal.info/",
+                "https://www.youtube.com/channel/UCWNFx2guRso5eynjThqQIGg"
+              ]
             },
             {
               "time": "21:30",
-              "name": "The 3rd and the Mortal",
-              "urls": []
+              "name": "Tribulation",
+              "urls": [
+                "https://tribulation.se/",
+                "https://www.youtube.com/channel/UC-dD25J4x67p7i4qV6Z3SLA"
+              ]
             },
             {
               "time": "23:30",
-              "name": "Tribulation",
-              "urls": []
-            },
-            {
-              "time": "00:00",
               "name": "MOONSPELL",
-              "urls": []
+              "urls": [
+                "https://moonspell.com/",
+                "https://www.youtube.com/@MoonspellYT"
+              ]
             }
           ]
         },
@@ -213,37 +264,58 @@
             {
               "time": "16:00",
               "name": "Infamis Tenebre",
-              "urls": []
+              "urls": [
+                "https://www.facebook.com/infamistenebre",
+                "https://www.youtube.com/watch?v=op3c9H8a7uk"
+              ]
             },
             {
               "time": "17:10",
               "name": "The Allegoris",
-              "urls": []
+              "urls": [
+                "https://theallegoristmusic.com/",
+                "https://www.youtube.com/@theallegoristmusic"
+              ]
             },
             {
               "time": "18:25",
               "name": "In Slaughter Natives",
-              "urls": []
+              "urls": [
+                "https://inslaughter-natives.bandcamp.com/",
+                "https://www.youtube.com/channel/UC-dD25J4x67p7i4qV6Z3SLA"
+              ]
             },
             {
               "time": "19:45",
               "name": "Xotox",
-              "urls": []
+              "urls": [
+                "http://www.xotox.info/",
+                "https://www.youtube.com/watch?v=x0q6zTVoXHk"
+              ]
             },
             {
               "time": "21:05",
               "name": "This Morn' Omina",
-              "urls": []
+              "urls": [
+                "https://cycliclaw.com/",
+                "https://www.youtube.com/watch?v=tSox2bjoFqA"
+              ]
             },
             {
               "time": "22:35",
               "name": "Hybryds",
-              "urls": []
+              "urls": [
+                "https://hybrydsmusic.bandcamp.com/",
+                "https://www.youtube.com/watch?v=eklDloUQonE"
+              ]
             },
             {
               "time": "00:00",
               "name": "Rein - night show",
-              "urls": []
+              "urls": [
+                "https://reinofficial.com/",
+                "https://www.youtube.com/@Rein"
+              ]
             }
           ]
         }
@@ -257,39 +329,60 @@
           "name": "Scena Zamkowa",
           "events": [
             {
-              "time": "16:00",
               "name": "Agonised Too",
-              "urls": []
+              "time": "14:50",
+              "urls": [
+                "https://www.facebook.com/agonisedtoo",
+                "https://www.youtube.com/watch?v=Xbie_ASSFXU"
+              ]
             },
             {
-              "time": "17:10",
               "name": "White Ritual",
-              "urls": []
+              "time": "16:00",
+              "urls": [
+                "https://whiteritual.bandcamp.com/",
+                "https://www.youtube.com/watch?v=9qmOrCSUYkw"
+              ]
             },
             {
-              "time": "18:30",
               "name": "Horskh",
-              "urls": []
+              "time": "17:10",
+              "urls": [
+                "https://www.horskh.com/",
+                "https://www.youtube.com/watch?v=uufHjyEev0s"
+              ]
             },
             {
-              "time": "19:50",
               "name": "Rue Oberkampf",
-              "urls": []
+              "time": "18:30",
+              "urls": [
+                "https://rueoberkampf.bandcamp.com/",
+                "https://www.youtube.com/watch?v=tZ9mNHdG6rw"
+              ]
             },
             {
-              "time": "21:20",
               "name": "Ash Code",
-              "urls": []
+              "time": "19:50",
+              "urls": [
+                "https://www.ashcode.eu/",
+                "https://www.youtube.com/watch?v=BBTEIQZCHUw"
+              ]
             },
             {
-              "time": "23:15",
               "name": "Cold Cave",
-              "urls": []
+              "time": "21:20",
+              "urls": [
+                "https://coldcave.net/",
+                "https://www.youtube.com/watch?v=vc2f7_XR4dM"
+              ]
             },
             {
-              "time": "00:00",
               "name": "SKÁLD",
-              "urls": []
+              "time": "23:15",
+              "urls": [
+                "https://skaldmusic.com/",
+                "https://www.youtube.com/watch?v=epGvHSRizT0"
+              ]
             }
           ]
         },
@@ -297,34 +390,52 @@
           "name": "Scena Parkowa",
           "events": [
             {
-              "time": "17:20",
               "name": "Ira Noctis",
-              "urls": []
+              "time": "17:20",
+              "urls": [
+                "https://iranoctis.bandcamp.com/",
+                "https://www.youtube.com/@iranoctis_official"
+              ]
             },
             {
-              "time": "18:30",
               "name": "Diskonnekt",
-              "urls": []
+              "time": "18:30",
+              "urls": [
+                "https://www.facebook.com/diskonnekt.music",
+                "https://www.youtube.com/results?search_query=Diskonnekt+band"
+              ]
             },
             {
-              "time": "19:45",
               "name": "Autoscopy",
-              "urls": []
+              "time": "19:45",
+              "urls": [
+                "http://autoscopy.eu/",
+                "https://www.youtube.com/watch?v=6gG-8X18yLU"
+              ]
             },
             {
-              "time": "21:00",
               "name": "Mortes",
-              "urls": []
+              "time": "21:00",
+              "urls": [
+                "https://mortes.bandcamp.com/",
+                "https://www.youtube.com/watch?v=hhTvGgyarrY"
+              ]
             },
             {
-              "time": "22:30",
               "name": "Unter Null",
-              "urls": []
+              "time": "22:30",
+              "urls": [
+                "https://unter-null.net/",
+                "https://www.youtube.com/channel/UCjsN5lErq-KIAPWuMMHqPCQ"
+              ]
             },
             {
-              "time": "00:00",
               "name": "Extize - night show",
-              "urls": []
+              "time": "00:00",
+              "urls": [
+                "https://extize.bandcamp.com/",
+                "https://www.youtube.com/@EXTIZE"
+              ]
             }
           ]
         }
