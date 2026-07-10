@@ -1,5 +1,5 @@
 import style from "./Festival.module.css";
-import festivalData from "./db/cp2025.json";
+import festivalData from "./db/cp2026.json";
 import { useContext, useEffect, useState } from "react";
 import { DataBaseFacadeContext } from "./db/db_facade";
 

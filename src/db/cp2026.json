@@ -1,0 +1,334 @@
+{
+  "festival": "Castle Party 2026",
+  "days": [
+    {
+      "date": "2026.07.16",
+      "stages": [
+        {
+          "name": "Scena Parkowa",
+          "events": [
+            {
+              "time": "16:00",
+              "name": "Meluzyna 3",
+              "urls": [
+                "https://www.facebook.com/meluzyna.band/?locale=pl_PL",
+                "https://www.youtube.com/watch?v=add8MOGBmuE"
+              ]
+            },
+            {
+              "time": "17:10",
+              "name": "After the Sin 2",
+              "urls": [
+                "https://afterthesin.com",
+                "https://www.youtube.com/watch?v=2kJ6pCgHh8w",
+                "https://www.youtube.com/channel/UCSwCGXzsQKSZ844N3PIYbaw"
+              ]
+            },
+            {
+              "time": "18:25",
+              "name": "Mayflower Madame 2",
+              "urls": [
+                "https://mayflowermadame.bandcamp.com/music",
+                "https://www.youtube.com/watch?v=yVU3uHXqSeo"
+              ]
+            },
+
+            {
+              "time": "19:45",
+              "name": "Denuit 1",
+              "urls": [
+                "https://denuit.bandcamp.com/music",
+                "https://www.youtube.com/watch?v=_quwjMURmlQ",
+                "https://www.youtube.com/watch?v=cdFeenmqyB8"
+              ]
+            },
+
+            {
+              "time": "21:05",
+              "name": "A Projection 3",
+              "urls": [
+                "https://aprojection.com/",
+                "https://aprojection.bandcamp.com/",
+                "https://www.youtube.com/watch?v=TtUxCa1aZok",
+                "https://www.youtube.com/watch?v=IkLVL8lvYTk]"
+              ]
+            },
+
+            {
+              "time": "22:35",
+              "name": "Merciful Nuns 2",
+              "urls": [
+                "https://mercifulnuns.org/",
+                "https://www.youtube.com/watch?v=w-CtAq1BIHQ",
+                "https://www.youtube.com/watch?v=PPm8O7hmHeE"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026.07.17",
+      "stages": [
+        {
+          "name": "Scena Zamkowa",
+          "events": [
+            {
+              "time": "14:40",
+              "name": "The Last Digital Angel 4",
+              "urls": []
+            },
+            {
+              "time": "15:50",
+              "name": "She Pleasures Herself 3",
+              "urls": [
+                "https://shepleasuresherself.bandcamp.com/",
+                "https://www.youtube.com/watch?v=5qNj3s90oig",
+                "https://www.youtube.com/watch?v=kkmY3F5bTYM"
+              ]
+            },
+            {
+              "time": "17:00",
+              "name": "Rotersand 2",
+              "urls": [
+                "https://rotersand.net/",
+                "https://www.youtube.com/watch?v=tcmU7Ll5uKU",
+                "https://www.youtube.com/watch?v=cnKffAZAhoA"
+              ]
+            },
+            {
+              "time": "18:20",
+              "name": "Empathy Test 3",
+              "urls": [
+                "https://www.youtube.com/watch?v=T1GbBddA94Y",
+                "https://www.youtube.com/watch?v=ilPsniwRIHw",
+                "https://www.empathytest.com/"
+              ]
+            },
+            {
+              "time": "19:50",
+              "name": "Hocico 3",
+              "urls": []
+            },
+            {
+              "time": "21:20",
+              "name": "Diary of Dreams 4",
+              "urls": []
+            },
+            {
+              "time": "23:15",
+              "name": "VNV NATION 5",
+              "urls": []
+            }
+          ]
+        },
+        {
+          "name": "Scena Parkowa",
+          "events": [
+            {
+              "time": "16:00",
+              "name": "Wolfpack Heading Nowhere",
+              "urls": []
+            },
+            {
+              "time": "17:10",
+              "name": "Thy Worshiper",
+              "urls": []
+            },
+            {
+              "time": "18:25",
+              "name": "On All Fours",
+              "urls": []
+            },
+            {
+              "time": "19:40",
+              "name": "The Devil's Trade",
+              "urls": []
+            },
+            {
+              "time": "21:00",
+              "name": "Wyatt E",
+              "urls": []
+            },
+            {
+              "time": "22:30",
+              "name": "Wolvennest",
+              "urls": []
+            },
+            {
+              "time": "01:00",
+              "name": "Sierra Veins - night show",
+              "urls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026.07.18",
+      "stages": [
+        {
+          "name": "Scena Zamkowa",
+          "events": [
+            {
+              "time": "16:00",
+              "name": "Her Own World",
+              "urls": []
+            },
+            {
+              "time": "17:10",
+              "name": "The Silverblack",
+              "urls": []
+            },
+            {
+              "time": "18:30",
+              "name": "Long Night",
+              "urls": []
+            },
+            {
+              "time": "20:00",
+              "name": "Dawn of Ashes",
+              "urls": []
+            },
+            {
+              "time": "21:30",
+              "name": "The 3rd and the Mortal",
+              "urls": []
+            },
+            {
+              "time": "23:30",
+              "name": "Tribulation",
+              "urls": []
+            },
+            {
+              "time": "00:00",
+              "name": "MOONSPELL",
+              "urls": []
+            }
+          ]
+        },
+        {
+          "name": "Scena Parkowa",
+          "events": [
+            {
+              "time": "16:00",
+              "name": "Infamis Tenebre",
+              "urls": []
+            },
+            {
+              "time": "17:10",
+              "name": "The Allegoris",
+              "urls": []
+            },
+            {
+              "time": "18:25",
+              "name": "In Slaughter Natives",
+              "urls": []
+            },
+            {
+              "time": "19:45",
+              "name": "Xotox",
+              "urls": []
+            },
+            {
+              "time": "21:05",
+              "name": "This Morn' Omina",
+              "urls": []
+            },
+            {
+              "time": "22:35",
+              "name": "Hybryds",
+              "urls": []
+            },
+            {
+              "time": "00:00",
+              "name": "Rein - night show",
+              "urls": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "date": "2026.07.19",
+      "stages": [
+        {
+          "name": "Scena Zamkowa",
+          "events": [
+            {
+              "time": "16:00",
+              "name": "Agonised Too",
+              "urls": []
+            },
+            {
+              "time": "17:10",
+              "name": "White Ritual",
+              "urls": []
+            },
+            {
+              "time": "18:30",
+              "name": "Horskh",
+              "urls": []
+            },
+            {
+              "time": "19:50",
+              "name": "Rue Oberkampf",
+              "urls": []
+            },
+            {
+              "time": "21:20",
+              "name": "Ash Code",
+              "urls": []
+            },
+            {
+              "time": "23:15",
+              "name": "Cold Cave",
+              "urls": []
+            },
+            {
+              "time": "00:00",
+              "name": "SKÁLD",
+              "urls": []
+            }
+          ]
+        },
+        {
+          "name": "Scena Parkowa",
+          "events": [
+            {
+              "time": "17:20",
+              "name": "Ira Noctis",
+              "urls": []
+            },
+            {
+              "time": "18:30",
+              "name": "Diskonnekt",
+              "urls": []
+            },
+            {
+              "time": "19:45",
+              "name": "Autoscopy",
+              "urls": []
+            },
+            {
+              "time": "21:00",
+              "name": "Mortes",
+              "urls": []
+            },
+            {
+              "time": "22:30",
+              "name": "Unter Null",
+              "urls": []
+            },
+            {
+              "time": "00:00",
+              "name": "Extize - night show",
+              "urls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
