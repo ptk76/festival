@@ -9,7 +9,7 @@
           "events": [
             {
               "time": "16:00",
-              "name": "Meluzyna 3",
+              "name": "Meluzyna",
               "urls": [
                 "https://www.facebook.com/meluzyna.band/?locale=pl_PL",
                 "https://www.youtube.com/watch?v=add8MOGBmuE"
@@ -17,7 +17,7 @@
             },
             {
               "time": "17:10",
-              "name": "After the Sin 2",
+              "name": "After the Sin",
               "urls": [
                 "https://afterthesin.com",
                 "https://www.youtube.com/watch?v=2kJ6pCgHh8w",
@@ -26,7 +26,7 @@
             },
             {
               "time": "18:25",
-              "name": "Mayflower Madame 2",
+              "name": "Mayflower Madame",
               "urls": [
                 "https://mayflowermadame.bandcamp.com/music",
                 "https://www.youtube.com/watch?v=yVU3uHXqSeo"
@@ -35,7 +35,7 @@
 
             {
               "time": "19:45",
-              "name": "Denuit 1",
+              "name": "Denuit",
               "urls": [
                 "https://denuit.bandcamp.com/music",
                 "https://www.youtube.com/watch?v=_quwjMURmlQ",
@@ -45,7 +45,7 @@
 
             {
               "time": "21:05",
-              "name": "A Projection 3",
+              "name": "A Projection",
               "urls": [
                 "https://aprojection.com/",
                 "https://aprojection.bandcamp.com/",
@@ -56,7 +56,7 @@
 
             {
               "time": "22:35",
-              "name": "Merciful Nuns 2",
+              "name": "Merciful Nuns",
               "urls": [
                 "https://mercifulnuns.org/",
                 "https://www.youtube.com/watch?v=w-CtAq1BIHQ",
@@ -75,12 +75,12 @@
           "events": [
             {
               "time": "14:40",
-              "name": "The Last Digital Angel 4",
+              "name": "The Last Digital Angel",
               "urls": []
             },
             {
               "time": "15:50",
-              "name": "She Pleasures Herself 3",
+              "name": "She Pleasures Herself",
               "urls": [
                 "https://shepleasuresherself.bandcamp.com/",
                 "https://www.youtube.com/watch?v=5qNj3s90oig",
@@ -98,7 +98,7 @@
             },
             {
               "time": "18:20",
-              "name": "Empathy Test 3",
+              "name": "Empathy Test",
               "urls": [
                 "https://www.youtube.com/watch?v=T1GbBddA94Y",
                 "https://www.youtube.com/watch?v=ilPsniwRIHw",
@@ -107,17 +107,17 @@
             },
             {
               "time": "19:50",
-              "name": "Hocico 3",
+              "name": "Hocico",
               "urls": []
             },
             {
               "time": "21:20",
-              "name": "Diary of Dreams 4",
+              "name": "Diary of Dreams",
               "urls": []
             },
             {
               "time": "23:15",
-              "name": "VNV NATION 5",
+              "name": "VNV NATION",
               "urls": []
             }
           ]
